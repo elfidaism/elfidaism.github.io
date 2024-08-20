@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #e2c185;
+    padding: 10px 0;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav a {
+    color: #6c614d;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a.active {
+    background-color: #c5aa75;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.terlaris-section {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.terlaris-section h2 {
+    font-size: 28px;
+    color: #6c614d;
+    display: flex;
+    align-items: center;
+}
+
+.terlaris-section .badge {
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-content p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.card-content a {
+    text-decoration: none;
+    color: #c95c41;
+    font-weight: bold;
+}
+
+.card-content a:hover {
+    color: #a33e28;
+}
